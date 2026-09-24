@@ -95,6 +95,19 @@ The SQL script:
 * Average and median salaries were close across job titles, suggesting that extreme salaries did not heavily distort job-title averages.
 * Full-year hiring counts remained relatively stable from 2015 through 2023.
 * High performers did not consistently resign more or less often than other employees across departments.
+## Featured SQL Analysis
+
+### Department Resignation Rates Compared with the Company Average
+
+The analysis calculates each department’s resignation rate, compares it with the company-wide rate, and classifies each department as above or at/below the company average.
+
+#### SQL Query
+
+![Department resignation analysis SQL query](department_resignation_analysis_query.png)
+
+#### Query Results
+
+![Department resignation analysis results](department_resignation_analysis_results.png)
 
 ## Important Interpretation Notes
 
