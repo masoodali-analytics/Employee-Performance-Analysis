@@ -41,7 +41,8 @@ The project uses a synthetic employee performance and productivity dataset conta
 * Hire dates and company tenure
 * Resignation status
 
-The original dataset was obtained from Kaggle.
+The original dataset is available on Kaggle:  
+[Employee Performance and Productivity Data](https://www.kaggle.com/datasets/mexwell/employee-performance-and-productivity-data)
 
 ## Tools Used
 
@@ -137,7 +138,7 @@ The dataset includes employees marked as resigned, so workforce counts and salar
 
 ## How to Run the Project
 
-1. Download the source dataset from Kaggle.
+1. Download the [Employee Performance and Productivity Data](https://www.kaggle.com/datasets/mexwell/employee-performance-and-productivity-data) from Kaggle.
 
 2. Open SQL Server Management Studio.
 
