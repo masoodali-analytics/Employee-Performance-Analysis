@@ -109,6 +109,20 @@ The analysis calculates each department’s resignation rate, compares it with t
 
 ![Department resignation analysis results](department_resignation_analysis_results.png)
 
+### Annual Hiring Trend
+
+This analysis uses the `LAG()` window function to compare each year’s employee count with the previous year and calculate the numerical and percentage change.
+
+The results show relatively stable full-year hiring between 2015 and 2023. The large changes in 2015 and 2024 should not be treated as normal year-over-year trends because 2014 and 2024 contain only partial-year records.
+
+#### SQL Query
+
+![Annual hiring trend SQL query](annual_hiring_trend_query.png)
+
+#### Query Results
+
+![Annual hiring trend results](annual_hiring_trend_results.png)
+
 ## Important Interpretation Notes
 
 The results are descriptive and show patterns within this dataset. They do not prove that one employee characteristic causes another outcome.
